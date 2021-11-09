@@ -1,0 +1,63 @@
+html {
+    background-color: #ccc;
+}
+
+.app {
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+.decrement {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: none;
+}
+
+.decrement:hover {
+    background-color: red;
+    opacity: 70%;
+    transform: scale(0.9);
+    transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
+}
+
+.increment {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: none;
+}
+
+.increment:hover{
+    background-color: green;
+    opacity: 70%;
+    transform: scale(0.9);
+    transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
+    
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    font-size: 3rem;
+    color: black;
+}
+
+h1 {
+    font-size: 6rem;
+}
