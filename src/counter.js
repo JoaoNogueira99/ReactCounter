@@ -5,10 +5,11 @@ function Counter() {
 
     return (
         <div className="app">
+            <h1>React Counter</h1>
             <div>
-            <h1 className={count > 0 ? "positive" : count < 0 ? "negative" : null}>
+            <h2 className={count > 0 ? "positive" : count < 0 ? "negative" : null}>
             { count }
-            </h1>
+            </h2>
             </div>
             <div className="buttons">
             <button className="decrement" onClick={() => setCount(count - 1)}>
